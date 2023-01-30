@@ -12,14 +12,6 @@ export async function getFruits() {
   return fruits;
 }
 
-// console.log(
-//   'Animals: ',
-
-//   sql<{ id: number; name: string; type: string }[]>`SELECT * FROM fruits;`.then(
-//     (x) => console.log('x: ', x),
-//   ),
-// );
-
 console.log(
   'hello world: ',
 

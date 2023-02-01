@@ -13,7 +13,7 @@ export async function getFruits() {
 }
 
 console.log(
-  'hello world: ',
+  'Connection Count: ',
 
   sql`
 select count(*) from pg_stat_activity;

@@ -1,3 +1,4 @@
+// TODO: Probably better to use a relative path here, to make the demo less "magical"
 import { getFruits } from '@/database/connect';
 import styles from './page.module.css';
 

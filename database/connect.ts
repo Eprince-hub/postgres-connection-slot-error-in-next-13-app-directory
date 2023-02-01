@@ -2,14 +2,8 @@ import postgres from 'postgres';
 
 const sql = postgres();
 
-type Fruit = {
-  id: number;
-  name: string;
-  type: string;
-};
-
 export async function getFruits() {
-  const fruits = await sql<Fruit[]>`
+  const fruits = await sql`
     SELECT * FROM fruits;
   `;
   return fruits;

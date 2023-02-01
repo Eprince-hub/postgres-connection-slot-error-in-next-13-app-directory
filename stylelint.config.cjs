@@ -1,3 +1,5 @@
+// TODO: Probably better to redo this with `create-next-app` **without** our ESLint config, to make the reproduction simpler
+
 /** @type { import('stylelint').Config } */
 const config = {
   extends: [
